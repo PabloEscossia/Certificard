@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,600&display=swap");
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(76.85deg, #9055ff 26.26%, #4be1ec 96.03%);
+  font-family: "Nunito", sans-serif;
+  max-width: 960px;
+}
+
+.container {
+  padding: 64px;
+  background: #f7f7f7;
+  color: #1c1c1d;
+  border-radius: 20px;
+  margin: 80px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-height: 160px;
+  border-radius: 460px;
+  box-shadow: 3px 3px 4px rgba(16, 16, 16, 0.42);
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border: 2px solid #0e1d2f;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.titulo {
+  margin-left: 20px;
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  p {
+    margin-top: 0px;
+  }
+}
+
+.icones-perfil {
+  margin: 3px;
+  font-size: 30px;
+  text-decoration: none;
+  color: linear-gradient(87.85deg, #4be1ec 6.26%, #9055ff 6.03%);
+  transition: color 0.2s;
+  :hover {
+    color: #4be1ec;
+  }
+}
+
+.projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  a {
+    font-size: 1.1em;
+    color: #fcfcfc;
+    font-weight: 500;
+  }
+  a:hover {
+    color: #000;
+    font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  background: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
